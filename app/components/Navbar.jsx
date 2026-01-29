@@ -65,7 +65,7 @@ const Navbar = () => {
             onClick={() => router.push('/chat')}
           >
             <span>Chat with AI</span>
-            <Image src={isDarkMode ? assets.logo : assets.logo_dark} className='w-4 invert dark:invert-0' alt='' />
+
           </HoverBorderGradient>
 
           <button onClick={() => setIsDarkMode(prev => !prev)}>
@@ -96,10 +96,10 @@ const Navbar = () => {
           <li><Link className='font-Ovo ' onClick={closeMenu} href="/#services">Services</Link></li>
           <li><Link className='font-Ovo ' onClick={closeMenu} href="/#work">My Work</Link></li>
           <li><Link className='font-Ovo ' onClick={closeMenu} href="/#contact">Contact me</Link></li>
-          <li><button className='font-Ovo flex items-center gap-2' onClick={() => { closeMenu(); router.push('/chat'); }}>
+          {/* <li><button className='font-Ovo flex items-center gap-2' onClick={() => { closeMenu(); router.push('/chat'); }}>
             Chat with AI
-            <Image src={isDarkMode ? assets.logo : assets.logo_dark} className='w-4 invert dark:invert-0' alt='' />
-          </button></li>
+
+          </button></li> */}
         </ul>
       </nav>
     </>
