@@ -61,7 +61,7 @@ const Navbar = () => {
           <HoverBorderGradient
             containerClassName="rounded-full"
             as="button"
-            className="dark:bg-black bg-white text-black dark:text-white flex items-center gap-2 font-Ovo"
+            className="hover:bg-lightHover dark:hover:bg-darkHover hover:-translate-y-1 duration-500 dark:bg-black bg-white text-black dark:text-white flex items-center gap-2 font-Ovo"
             onClick={() => router.push('/chat')}
           >
             <span>Chat with AI</span>

@@ -24,7 +24,7 @@ const Services = () => {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.6, duration: 0.5 }}
         className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        I am a Full Stack Developer & AI Engineer specializing in agentic AI solutions, robust mobile & web applications, and intuitive UI/UX design.</motion.p>
+        I am a Full Stack Developer, AI Engineer, and Java Expert specializing in agentic AI solutions using Spring AI, scalable Spring Boot enterprise applications, and intuitive UI/UX design.</motion.p>
 
       <motion.div
         initial={{ opacity: 0 }}

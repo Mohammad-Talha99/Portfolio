@@ -44,6 +44,7 @@ import ai_engineer_complex from './ai-engineer-complex.png';
 import ai_engineer_distinct from './ai-engineer-distinct.png';
 import ai_robot_head from './ai-robot-head.png';
 import icon_ai_final from './icon-ai-final.png';
+import java_developer from './java-developer.png';
 
 export const assets = {
     user_image,
@@ -91,17 +92,18 @@ export const assets = {
     ai_engineer_complex,
     ai_engineer_distinct,
     ai_robot_head,
-    icon_ai_final
+    icon_ai_final,
+    java_developer
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Frontend Project',
+        description: 'Web application',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
+        title: 'Backend project',
         description: 'Mobile App',
         bgImage: '/work-2.png',
     },
@@ -120,7 +122,7 @@ export const workData = [
 export const serviceData = [
     { icon: assets.icon_ai_final, title: 'AI Engineer', description: 'Integrate AI models with agentic AI solutions to build intelligent, autonomous, and data-driven applications.', link: '', variant: 'pink-box' },
     { icon: assets.full_stack_unified, title: 'Full stack development', description: 'Comprehensive development of both client-side and server-side software ensuring seamless integration and high performance.', link: '', variant: 'pink-box' },
-    { icon: assets.mobile_app_option2, title: 'Mobile app', description: 'End-to-end mobile app creation for iOS and Android, focusing on user-centric design and robust performance.', link: '', variant: 'pink-box' },
+    { icon: assets.java_developer, title: 'Java Developer', description: 'Expert backend development using Java and Spring Boot to build scalable, high-performance enterprise applications.', link: '', variant: 'pink-box' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'intuitive and visually appealing user interfaces that ensure a seamless and engaging user experience across all devices.', link: '', variant: 'pink-box' },
 ]
 
