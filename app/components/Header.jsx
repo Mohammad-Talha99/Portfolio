@@ -12,7 +12,7 @@ const Header = () => {
         whileInView={{ scale: 1 }}
         transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}
       >
-        <Image src={assets.profile_img} className='rounded-full h-52 w-50 mt-16 bg-gray-100 ' alt='' />
+        <Image src={assets.profile_img} className='rounded-full h-52 w-50 mt-25 bg-gray-100 ' alt='' />
       </motion.div>
       <motion.h3
         initial={{ y: -20, opacity: 0 }}
@@ -26,24 +26,24 @@ const Header = () => {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}
         className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-        Full Stack Developer</motion.h1>
+        AI Full Stack Developer</motion.h1>
 
       <div className='flex flex-col sm:flex-row items-center gap-4'>
-        <motion.a 
-        initial={{y: 30, opacity: 0}}
-        whileInView={{y: 0, opacity:1}}
-        transition={{duration: 0.6, delay: 1}}
-        href="#contact"
+        <motion.a
+          initial={{ y: 30, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 1 }}
+          href="#contact"
           className='px-10 py-3 my-10 border border-white rounded-full bg-black
                     text-white flex items-center gap-2 dark:bg-transparent'
         >contact me <Image src={assets.right_arrow_white}
           className='rounded-full w-4' alt='' /></motion.a>
 
-        <motion.a 
-        initial={{y: 30, opacity: 0}}
-        whileInView={{y: 0, opacity:1}}
-        transition={{duration: 0.6, delay: 1.2}}
-        href="/Resume.pdf" download className='px-10 py-3 border rounded-full
+        <motion.a
+          initial={{ y: 30, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 1.2 }}
+          href="/Resume.pdf" download className='px-10 py-3 border rounded-full
                     border-gray-500 flex items-center gap-2 bg-white dark:text-black'>my resume
           <Image src={assets.download_icon}
             className='w-5' alt='' /></motion.a>

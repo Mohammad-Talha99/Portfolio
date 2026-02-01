@@ -45,6 +45,8 @@ import ai_engineer_distinct from './ai-engineer-distinct.png';
 import ai_robot_head from './ai-robot-head.png';
 import icon_ai_final from './icon-ai-final.png';
 import java_developer from './java-developer.png';
+import certificate_java_dsa from './certificate-java-dsa.jpg';
+import certificate_google_agentic_ai from './certificate-google-agentic-ai.png';
 
 export const assets = {
     user_image,
@@ -93,7 +95,9 @@ export const assets = {
     ai_engineer_distinct,
     ai_robot_head,
     icon_ai_final,
-    java_developer
+    java_developer,
+    certificate_java_dsa,
+    certificate_google_agentic_ai
 };
 
 export const workData = [
@@ -134,4 +138,21 @@ export const infoList = [
 
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+];
+
+export const certificateData = [
+    {
+        id: '1',
+        title: 'Java with DSA',
+        description: 'Successfully completed the Alpha (DSA with Java) course, mastering Data Structures and Algorithms effectively.',
+        image: assets.certificate_java_dsa,
+        date: '2024'
+    },
+    {
+        id: '2',
+        title: 'AI Agents course by Google',
+        description: 'Completed an intensive training by Google and Kaggle, building advanced AI agents and mastering agentic workflows and reasoning with LLMs.',
+        image: assets.certificate_google_agentic_ai,
+        date: '2025'
+    }
 ];

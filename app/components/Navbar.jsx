@@ -1,3 +1,4 @@
+'use client'
 import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import { useRouter, usePathname } from 'next/navigation'
@@ -53,6 +54,7 @@ const Navbar = () => {
           <li className='hover:bg-lightHover hover:-translate-y-1 duration-500 cursor-pointer  px-3 py-1 rounded-md dark:hover:bg-darkHover '><Link className='font-Ovo' href="/#services">Services</Link></li>
           <li className='hover:bg-lightHover hover:-translate-y-1 duration-500 cursor-pointer  px-3 py-1 rounded-md dark:hover:bg-darkHover '><Link className='font-Ovo' href="/#work">My Work</Link></li>
           <li className='hover:bg-lightHover hover:-translate-y-1 duration-500 cursor-pointer  px-3 py-1 rounded-md dark:hover:bg-darkHover '><Link className='font-Ovo' href="/#contact">Contact me</Link></li>
+          <li className='hover:bg-lightHover hover:-translate-y-1 duration-500 cursor-pointer  px-3 py-1 rounded-md dark:hover:bg-darkHover '><Link className='font-Ovo' href="/certificates">Certificates</Link></li>
         </ul>
 
 
@@ -61,7 +63,7 @@ const Navbar = () => {
           <HoverBorderGradient
             containerClassName="rounded-full"
             as="button"
-            className="hover:bg-lightHover dark:hover:bg-darkHover hover:-translate-y-1 duration-500 dark:bg-black bg-white text-black dark:text-white flex items-center gap-2 font-Ovo"
+            className="hover:bg-lightHover dark:hover:bg-darkHover hover:-translate-y-1 duration-500 dark:bg-black bg-blue-20 text-black dark:text-white flex items-center gap-2 font-Ovo"
             onClick={() => router.push('/chat')}
           >
             <span>Chat with AI</span>
@@ -96,6 +98,7 @@ const Navbar = () => {
           <li><Link className='font-Ovo ' onClick={closeMenu} href="/#services">Services</Link></li>
           <li><Link className='font-Ovo ' onClick={closeMenu} href="/#work">My Work</Link></li>
           <li><Link className='font-Ovo ' onClick={closeMenu} href="/#contact">Contact me</Link></li>
+          <li><Link className='font-Ovo ' onClick={closeMenu} href="/certificates">Certificates</Link></li>
           {/* <li><button className='font-Ovo flex items-center gap-2' onClick={() => { closeMenu(); router.push('/chat'); }}>
             Chat with AI
 

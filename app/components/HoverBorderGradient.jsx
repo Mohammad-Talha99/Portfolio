@@ -55,7 +55,7 @@ export function HoverBorderGradient({
             {...props}
         >
             <div
-                className={`w-auto relative z-10 bg-white dark:bg-black px-6 py-2 rounded-[inherit] text-black dark:text-white ${className}`}
+                className={`w-auto relative z-10 bg-blue-50 dark:bg-black px-6 py-2 rounded-[inherit] text-black dark:text-white ${className}`}
             >
                 {children}
             </div>
@@ -75,7 +75,7 @@ export function HoverBorderGradient({
                 }}
                 transition={{ ease: "linear", duration: duration ?? 1 }}
             />
-            <div className="bg-white dark:bg-black absolute z-1 flex-none inset-[2px] rounded-[100px]" />
+            <div className="bg-blue-50 dark:bg-black absolute z-1 flex-none inset-[2px] rounded-[100px]" />
         </Tag>
     );
 }
