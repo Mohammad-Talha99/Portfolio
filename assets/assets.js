@@ -35,6 +35,15 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import mobile_app_new from './mobile-app-new.png';
+import mobile_app_option2 from './mobile-app-option2.png';
+import full_stack_unified from './full-stack-unified.png';
+import graphics_unified from './graphics-unified.png';
+import ai_engineer_unified from './ai-engineer-unified.png';
+import ai_engineer_complex from './ai-engineer-complex.png';
+import ai_engineer_distinct from './ai-engineer-distinct.png';
+import ai_robot_head from './ai-robot-head.png';
+import icon_ai_final from './icon-ai-final.png';
 
 export const assets = {
     user_image,
@@ -73,7 +82,16 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    mobile_app_new,
+    mobile_app_option2,
+    full_stack_unified,
+    graphics_unified,
+    ai_engineer_unified,
+    ai_engineer_complex,
+    ai_engineer_distinct,
+    ai_robot_head,
+    icon_ai_final
 };
 
 export const workData = [
@@ -100,10 +118,10 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.icon_ai_final, title: 'AI Engineer', description: 'Integrate AI models with agentic AI solutions to build intelligent, autonomous, and data-driven applications.', link: '', variant: 'pink-box' },
+    { icon: assets.full_stack_unified, title: 'Full stack development', description: 'Comprehensive development of both client-side and server-side software ensuring seamless integration and high performance.', link: '', variant: 'pink-box' },
+    { icon: assets.mobile_app_option2, title: 'Mobile app', description: 'End-to-end mobile app creation for iOS and Android, focusing on user-centric design and robust performance.', link: '', variant: 'pink-box' },
+    { icon: assets.ui_icon, title: 'UI/UX design', description: 'intuitive and visually appealing user interfaces that ensure a seamless and engaging user experience across all devices.', link: '', variant: 'pink-box' },
 ]
 
 export const infoList = [
