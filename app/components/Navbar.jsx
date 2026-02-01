@@ -66,7 +66,7 @@ const Navbar = () => {
             className="hover:bg-lightHover dark:hover:bg-darkHover hover:-translate-y-1 duration-500 dark:bg-black bg-blue-20 text-black dark:text-white flex items-center gap-2 font-Ovo"
             onClick={() => router.push('/chat')}
           >
-            <span>Chat with AI</span>
+            <span>AI chat</span>
 
           </HoverBorderGradient>
 
